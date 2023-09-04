@@ -211,6 +211,8 @@ Finished: SUCCESS
 
  ![Image Alt Text](https://github.com/purna16/jenkins-production-grade-monitoring/blob/main/images/Screenshot%20from%202023-09-04%2020-07-37.png)
 
+If you are interested, Notion link: https://bittersweet-gondola-35c.notion.site/Monitoring-Production-grade-Jenkins-using-Prometheus-Grafana-InfluxDB-3b96be3f771b41c4a265bbb4aee907d1?pvs=4
+
 **Project Completion:**
 
 - With the completion of the aforementioned steps, the Grafana dashboard is ready for use, providing comprehensive insights into the Jenkins environment.
