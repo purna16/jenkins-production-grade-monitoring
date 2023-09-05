@@ -123,19 +123,19 @@ Finished: SUCCESS
 **Node Executor Count Panel:**
 
 - This panel tracks the number of concurrent jobs Jenkins can run.
-- Query: **`jenkins_executor_count_value{instance="10.96.12.24:8080", job="jenkins"}`**
+- Query: **`jenkins_executor_count_value{instance="localhost:8080", job="jenkins"}`**
 
 ![Image Alt Text](https://github.com/purna16/jenkins-production-grade-monitoring/blob/main/images/Screenshot%20from%202023-09-04%2017-48-23.png)
 
 **Node Count Panel:**
 
 - Monitors the total number of Jenkins nodes.
-- Query: **`jenkins_node_count_value{instance="10.96.12.24:8080", job="jenkins"}`**
+- Query: **`jenkins_node_count_value{instance="localhost:8080", job="jenkins"}`**
 
 **Queue Size Panel:**
 
 - Displays the size of the build queue.
-- Query: **`jenkins_queue_size_value{instance="10.96.12.24:8080", job="jenkins"}`**
+- Query: **`jenkins_queue_size_value{instance="localhost:8080", job="jenkins"}`**
 
 ![Image Alt Text](https://github.com/purna16/jenkins-production-grade-monitoring/blob/main/images/Screenshot%20from%202023-09-04%2018-08-44.png)
 
@@ -205,9 +205,9 @@ Finished: SUCCESS
 
 - Provides information on active, inactive, and update-required Jenkins plugins.
 - Queries:
-    - Active Plugins: **`jenkins_plugins_active{instance="10.96.12.24:8080", job="jenkins"}`**
-    - Inactive Plugins: **`jenkins_plugins_inactive{instance="10.96.12.24:8080", job="jenkins"}`**
-    - Update Required Plugins: **`jenkins_plugins_withUpdate{instance="10.96.12.24:8080", job="jenkins"}`**
+    - Active Plugins: **`jenkins_plugins_active{instance="localhost:8080", job="jenkins"}`**
+    - Inactive Plugins: **`jenkins_plugins_inactive{instance="localhost:8080", job="jenkins"}`**
+    - Update Required Plugins: **`jenkins_plugins_withUpdate{instance="localhost:8080", job="jenkins"}`**
 
  ![Image Alt Text](https://github.com/purna16/jenkins-production-grade-monitoring/blob/main/images/Screenshot%20from%202023-09-04%2020-07-37.png)
 
